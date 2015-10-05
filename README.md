@@ -1,9 +1,9 @@
-# Brunch with Steak
+# Brunch on Rocket
 
-Brunch with Steak is a [Brunch](http://brunch.io/) skeleton that utilizes [Bootstrap](http://getbootstrap.com/), and [LESS](http://lesscss.org/) / [SASS](http://sass-lang.com/). Brunch with Steak is a version of [Brunch with Steak and Eggs](https://github.com/oddpixel/brunch-steak-eggs) minus Backbone and Handlebars
+Brunch on Rocket is a [Brunch](http://brunch.io/) skeleton that utilizes [Bootstrap](http://getbootstrap.com/), and [LESS](http://lesscss.org/) / [SASS](http://sass-lang.com/). Brunch on Rocket is an updated version of [Brunch with Steak](https://github.com/oddpixel/brunch-steak) with the addition of Browser Sync.
 
 ## Installation
-Skeleton install: `brunch new github:oddpixel/brunch-steak <your-project-name>`.
+Skeleton install: `brunch new gh:djkmiles/brunch-rocket <your-project-name>`.
 
 Or simply copy the repository to your hard drive and rename it.
 
@@ -20,7 +20,7 @@ Or simply copy the repository to your hard drive and rename it.
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Backbone site](http://backbonejs.org/)
+    * [Brunch site](http://brunch.io)
 
 ## Customize Bootstrap Stylesheets
 
@@ -33,6 +33,3 @@ They're in original [LESS](http://lesscss.org/) format in order to be easily cus
 ## Exclude Bootstrap jQuery plugins
 
 jQuery plugins used by Bootstrap are all listed (in the right order) inside the config.coffee file. Comment out the ones you want to exclude from the build with a #. (Pay attention to dependencies!)
-
-## Credit
-Brunch with Steak was spawned from [Brunch with Banana Pancakes](https://github.com/Anaphase/brunch-banana-pancakes) but customized to suite my preferences / needs.
