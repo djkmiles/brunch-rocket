@@ -22,6 +22,7 @@
     "javascript-brunch": "latest",
     "less-brunch": "latest",
     "uglify-js-brunch": "latest",
-    "read-components": "latest"
+    "read-components": "latest",
+    "browser-sync-brunch": "latest"
   }
 }
